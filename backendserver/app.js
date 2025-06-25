@@ -13,7 +13,7 @@ dotenv.config();
 // The order is crucial: CORS, cookies, body parsers, then routes.
 
 app.use(cors({
-  origin: 'https://lively-daffodil-f1eeff.netlify.app',
+  origin: 'https://meadeeaseapp.netlify.app/',
   credentials: true
 }));
 
