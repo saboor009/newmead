@@ -14,7 +14,7 @@ const server = http.createServer(app);
 // Set up Socket.IO with CORS
 const io = socketIo(server, {
   cors: {
-    origin: "https://meadeeaseapp.netlify.app/",
+    origin: "https://lively-daffodil-f1eeff.netlify.app/",
     methods: ["GET", "POST"],
     credentials: true
   }
