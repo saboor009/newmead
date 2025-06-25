@@ -13,7 +13,7 @@ dotenv.config();
 // The order is crucial: CORS, cookies, body parsers, then routes.
 
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://lively-daffodil-f1eeff.netlify.app',
   credentials: true
 }));
 
